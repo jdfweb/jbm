@@ -1,0 +1,56 @@
+footer.full-width {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  padding-top: rem-calc(48);
+  p {
+    font-size: rem-calc(14);
+  }
+  a {
+    color: #666;
+    font-size: rem-calc(15);
+    &:hover, &:focus {
+      color: $body-font-color;
+    }
+  }
+  .love-reverie {
+    border-top: 1px solid #ccc;
+    padding-top: rem-calc(24);
+  }
+}
+
+.footer-widget {
+  background-color: #eee;
+}
+
+@media #{$large-up} {
+  .footer-widget {
+    margin-top: rem-calc(48);
+    padding-top: rem-calc(32);
+  }
+}
+
+/* CUSTOM STYLES */
+
+.jbm-footer {
+  background-color: #33363a;
+}
+
+.jbm-copyright {
+  background-color: #202225;
+  padding-top: em-calc(20);
+}
+
+h2.footer-title {
+  color: #fff;
+  font-weight: lighter;
+  font-size: em-calc(26);
+}
+
+p.footer {
+  color: #656565;
+}
+
+p.footer-text {
+  color: #d1cfcf;
+  font-weight: lighter;
+}

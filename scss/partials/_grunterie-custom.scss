@@ -1,0 +1,158 @@
+$baige: #c39f73;
+$baige-hover: #987b58;
+$brown: #39302e;
+$maroon: #5f414d;
+$cyan: #5fa77f;
+
+/* PADDING */
+
+.top-buffer-large {
+	padding-top: em-calc(60);
+}
+
+.bottom-buffer-large {
+	padding-bottom: em-calc(60);
+}
+
+/* NAVIGATION */
+
+.top-bar-section>ul>.divider, .top-bar-section>ul>[role="separator"] {
+	display: none;
+}
+
+a:hover {
+	text-decoration: none;
+	transition: 300ms linear 0s, color 300ms linear 0s;
+}
+
+/* GET A QUOTE HIGHLIGHT WITH GREEN */
+
+li#menu-item-18 a {
+	color: #21e176;
+}
+
+li#menu-item-18 a:hover, li#menu-item-18 a:focus {
+	color: #54ffa0;
+}	
+
+/* HOME PAGE HERO */
+
+.row.full-width {
+	max-width: 100%;
+	width: 100%;
+	background-color: #fff;
+}
+
+.hero {
+	background: url('/jbm/wp-content/themes/jbm/img/home-hero.jpg') center center no-repeat;
+	padding: 200px 0px 200px 0px;
+	height: em-calc(640);
+	margin: -2rem 0;
+}
+
+h1.hero-title {
+	color: #fff;
+	font-size: em-calc(70);
+	font-weight: 300;
+}
+
+h3.hero-subtitle {
+	color: #fff;
+	font-size: em-calc(36);
+	font-weight: 300;
+	margin-top: em-calc(-10);
+}
+
+.button.btn-hero {
+	background-color: $baige;
+	margin-top: em-calc(20);
+	&:hover, &:focus {
+		background-color: $baige-hover;
+	}
+}
+
+/* HOME PAGE ABOUT */
+
+.home-about {
+	padding-top:80px;
+}
+
+img.home-moriah {
+	padding: 30px 0px 40px 0px;
+}
+
+.button.btn-about {
+	background-color: $maroon;
+	margin-top: em-calc(20);
+	&:hover, &:focus {
+		background-color: #432e36;
+	}
+}
+
+/* HOME PAGE PROCESS */
+
+.home-process {
+	background: url('/jbm/wp-content/themes/jbm/img/home-process.jpg') center center no-repeat;
+	height: em-calc(496);
+}
+
+.home-process-content {
+	padding-top: em-calc(40);
+	padding-bottom: em-calc(20);
+}
+
+.home-process-title, .home-process-subtitle {
+	color: #fff;
+	font-weight: 100;
+}
+
+.home-process-title {
+	font-size: em-calc(48);
+}
+
+.home-process-subtitle {
+	margin-top: em-calc(-10);
+}
+
+.home-process-heading, .home-process-text {
+	color: #fff;
+	font-weight:100;
+}
+
+.home-process-heading {
+	font-size: em-calc(32);
+}
+
+.button.btn-process {
+	background-color: $baige;
+	margin-top: em-calc(20);
+	&:hover, &:focus {
+		background-color: $baige-hover;
+	}
+}
+
+/* HOME PAGE QUOTE */
+
+.home-quote {
+	background-color: $brown;
+}
+
+.home-quote-title {
+	color: #fff;
+	font-weight: 100;
+}
+
+.second-row {
+	background-color: red;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/* BLOG PAGE */
+
+a.blog-title {
+	color: $baige;
+	&:hover {
+		color: $baige-hover;
+	}
+}
